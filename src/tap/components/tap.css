@@ -1,0 +1,24 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainContainer p {
+  font-size: 4em;
+  user-select: none;
+}
+
+.TapBox {
+  width: 60vw;
+  height: 60vw;
+  border-radius: 50%;
+  background-color: #00adb5;
+  box-shadow: 5px 5px 40px rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}

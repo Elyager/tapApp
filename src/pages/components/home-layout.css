@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #252a34;
+  color: #eeeeee;
+}
+.HomeLayout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Header {
+  background:#eeeeee;
+  color: #252a34;
+  width: 100%;
+  text-align: center;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently                                 supported by Chrome and Opera */
+}
